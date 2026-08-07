@@ -25,6 +25,7 @@ A responsive Spotify-inspired music player interface built from scratch using HT
 ## 📸 Project Preview
 
 A Spotify-inspired music streaming interface created from scratch as a frontend development project.
+![Spotify Clone Preview](spotify-screenshot.png)
 
 ## 🎯 Purpose
 
