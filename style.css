@@ -1,0 +1,405 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    width: 350px;
+    background-color: black;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.main-content{
+    flex: 1;
+    background-color: rgb(34, 34, 34);
+    border-radius: 1rem;
+    overflow: auto;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    /* margin-bottom: 1rem; */
+    height: 654px;
+    
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 72px;
+}
+
+.nav{
+    background-color: rgb(34, 34, 34);
+    border-radius: 1rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+}
+.search i{
+    cursor: pointer;
+}
+
+.search{
+    opacity: 0.5;
+    
+    line-height: 40px;
+}
+.search:hover{
+    opacity: 1;
+}
+
+.home{
+    
+    line-height: 40px;
+
+}
+
+i{
+    font-size: 1.25rem;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.lib{
+    display: flex;
+    margin-left: 0.5rem;
+    /* justify-content: space-evenly; */
+    cursor: pointer;
+    opacity: 0.5;
+}
+.lib:hover{
+    opacity: 1;
+}
+.lib img{
+    margin: 0.5rem;
+    
+}
+.lib p{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+
+}
+.library{
+    height: 545px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+}
+.icons{
+    margin-bottom: 0.5rem;
+}
+.icons i{
+    font-size: medium;
+    font-weight: 600;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.icons i:hover{
+    opacity: 1;
+}
+.box1{
+    background-color: rgb(64, 64, 64);
+    border-radius: 1rem;
+    margin: 0 0.5rem;
+    height: 130px;
+}
+.box1 button{
+    border-radius: 2rem;
+    height: 30px;
+    width: 130px;
+    width: fit-content;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 0.75rem;
+}
+.card-title{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.box1 h6{
+    color: white;
+    padding-top: 0.5rem;
+    font-size: 0.75rem;
+}
+
+#box2{
+    margin-top: 1rem;
+    height: 150px;
+}
+#box2 button{
+    margin-top: 1.75rem;
+}
+.options button{
+    border-radius: 2rem;
+    height: 30px;
+    width: 130px;
+    width: fit-content;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 0.75rem;
+    margin-right: 0.5rem;
+}
+.navbaar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(34, 34, 34);
+}
+.arrow{
+    margin: 1rem;
+    opacity: 0.8;
+    padding-top: 0.75rem;
+}
+.options{
+    margin: 0.75rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.options #user{
+    margin-top: 1rem;
+    height: 1rem;
+}
+#install{
+    display: flex;
+    justify-content: space-between;
+}
+.down i{
+    height: 0.5rem;
+}
+@media(max-width:1000px){
+    .arrow #right{
+        display: none;
+    }
+    .options #explore{
+        display: none;
+    }
+}
+#card1{
+    /* height: 200px; */
+    width: 170px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+#card1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+.main-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+#card2{
+    width: 170px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+}
+#card2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+
+}
+#card3{
+    width: 170px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+}
+#card3 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+
+}
+#card4{
+    width: 170px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+}
+#card4 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+
+}
+.secondary-cards{
+    display: flex;
+}
+#card5{
+    width: 170px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+}
+#card5 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+
+}
+#card6{
+    width: 170px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+}
+#card6 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+
+}
+.line{
+    background-color: white;
+    width: 900px;
+    height: 1px;
+    margin: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 4rem;
+    left: 4rem;
+    opacity: 0.5;
+}
+.daylight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    margin-left: -3.5rem;
+}
+.david{
+    margin-top: 1rem;
+    margin-left: -10rem;
+}
+
+.david h4{
+    font-size: 0.75rem;
+}
+.david p{
+    font-size: 0.5rem;
+    opacity: 0.8;
+}
+.heart i{
+    opacity: 0.5;
+    height: 0.5rem;
+}
+.player{
+    width: 50%;
+    /* background-color: aqua; */
+}
+.music-player{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.main-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-icons img{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+.main-icons img:hover{
+    opacity: 1;
+}
+.playback-bar{
+    justify-content: center;
+    align-items: center;
+}
+
+.progress{
+    width: 70%;
+    
+    appearance: none;
+    background-color: transparent;
+     cursor: pointer; 
+}
+.progress::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+} 
+ .progress::-webkit-slider-thumb{
+    
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+    cursor: pointer;
+} 
+.controls{
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+.controls i{
+    opacity: 0.5;
+    /* font-weight:500; */
+    margin-right: 0.5rem;
+}
+/* .controls #vol{
+    margin-top: 1.2rem;
+} */
+.controls input{
+    height: 0.2rem;
+    cursor: pointer;
+}
