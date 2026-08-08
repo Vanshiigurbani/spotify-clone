@@ -2,10 +2,6 @@
 
 A responsive Spotify-inspired music player interface built from scratch using HTML, CSS, and Bootstrap.
 
-## 🚀 Live Demo
-
-[🎵 View Live Demo](https://vanshikurgurbani.github.io/spotify-clone/)
-
 ## 🛠️ Technologies Used
 
 - HTML5
